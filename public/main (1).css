@@ -1,0 +1,143 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: 1C2541;
+}
+
+.top {
+  
+  margin: 1;
+  padding: 50;
+  display: flex
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.bubble {
+position: relative;
+background: #9b979b;
+border-radius: .4em;
+}
+
+.bubble:after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 15%;
+width: 0;
+height: 0;
+border: 1.094em solid transparent;
+border-top-color: #9b979b;
+border-bottom: 0;
+border-left: 0;
+margin-left: -0.547em;
+margin-bottom: -1.094em;
+}
+.speech-bubble {
+
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+ 
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.brrrr {
+   background-image:  linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.65) 
+        ),
+        url('https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/space.png?raw=true');
+  background-position: center top;
+  background-size: cover;
+}
+.gallery-item {
+  margin: 20px;
+  border-radius: .4em;
+}
+
+.gallery-item .thumbnail {
+  border: 0px solid #fff;
+}
+
+
+.portrait {
+  width: 200px;
+  border-radius: 10px;
+
+}
+.yeetsquadpullupweoutchea {
+border: 1px solid green ;
+  background-image: url('https://i.imgur.com/5lrExMvh.jpg');
+    background-position: top, bottom;
+    background-size:100%;
+margin: 20px
+
+}
+
+.yeetsquadpullupweaintoutchea {
+border: 1px solid green ;
+  background-image: url('https://i.imgur.com/TnztMfi.png');
+    background-position: top, bottom;
+    background-size:100%;
+margin: 20px;
+}
+
+.yerrrp {
+display: inline;
+padding-left:  10;
+color: white;
+
+}
+
+.snaccuel {
+padding-top: 25;
+}
+
+.hitmebabyonemoretime {
+background-color: 1C2541;
+}
+
+.NBA2k19 {
+color:white;
+text-align: center;
+padding-top: 20;
+}
+
+.Rafie {
+width: 100;
+}
+
+.Jankowski {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
